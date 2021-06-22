@@ -16,7 +16,8 @@
         </style>
     </head>
     <body>
-        <h1>This is a test app</h1>
+        @livewire('hello-world')
+        
         @livewireScripts
     </body>
 </html>
