@@ -9,6 +9,11 @@ class HelloWorld extends Component
     // the $name variable will auto pass into the view (new feature of laravel 7)
     public $name = "Jose";
 
+    public function changeName()
+    {
+        $this->name = 'default name';
+    }
+
     public function render()
     {
         return view('livewire.hello-world');
